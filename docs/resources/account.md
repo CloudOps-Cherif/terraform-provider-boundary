@@ -42,10 +42,13 @@ resource "boundary_account" "jeff" {
 ### Optional
 
 - **description** (String, Optional) The account description.
-- **id** (String, Optional) The ID of this resource.
 - **login_name** (String, Optional) The login name for this account.
 - **name** (String, Optional) The account name. Defaults to the resource name.
 - **password** (String, Optional) The account password.
+
+### Read-only
+
+- **id** (String, Read-only) The ID of the account.
 
 ## Import
 

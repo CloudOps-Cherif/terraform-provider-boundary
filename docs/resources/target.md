@@ -86,10 +86,13 @@ resource "boundary_target" "foo" {
 - **default_port** (Number, Optional) The default port for this target.
 - **description** (String, Optional) The target description.
 - **host_set_ids** (Set of String, Optional) A list of host set ID's.
-- **id** (String, Optional) The ID of this resource.
 - **name** (String, Optional) The target name. Defaults to the resource name.
 - **session_connection_limit** (Number, Optional)
 - **session_max_seconds** (Number, Optional)
+
+### Read-only
+
+- **id** (String, Read-only) The ID of the target.
 
 ## Import
 

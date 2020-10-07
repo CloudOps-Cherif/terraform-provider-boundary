@@ -44,8 +44,11 @@ resource "boundary_host_catalog" "example" {
 ### Optional
 
 - **description** (String, Optional) The host catalog description.
-- **id** (String, Optional) The ID of this resource.
 - **name** (String, Optional) The host catalog name. Defaults to the resource name.
+
+### Read-only
+
+- **id** (String, Read-only) The ID of the host catalog.
 
 ## Import
 
